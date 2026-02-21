@@ -1,8 +1,9 @@
-📦 Noon Scraper
+**Noon Scraper**
 
 A simple web scraper built with Python and Selenium to collect product data from Noon Egypt search results.
 
-📌 About the Project
+
+** About the Project**
 
 This project allows you to search for any product on Noon Egypt and scrape basic information such as:
 
@@ -20,7 +21,8 @@ The scraped data is saved into a CSV file for further analysis.
 
 This project was created as practice for web scraping using Selenium and BeautifulSoup.
 
-🛠️ Technologies Used
+
+** Technologies Used**
 
 Python
 
@@ -30,7 +32,8 @@ BeautifulSoup
 
 WebDriver Manager
 
-🚀 How to Run
+
+** How to Run**
 
 Clone the repository:
 
@@ -53,13 +56,15 @@ The number of pages you want to scrape
 
 A CSV file will be generated in the same folder.
 
-📂 Project Structure
+
+** Project Structure**
 noon-scraper/
 │
 ├── noon_scraper.py
 ├── requirements.txt
 └── README.md
-⚠️ Notes
+
+**Notes**
 
 This scraper depends on Noon’s website structure.
 
@@ -67,12 +72,13 @@ If the website updates its HTML structure, some selectors may need to be updated
 
 The scraper is intended for educational purposes.
 
-🎯 Future Improvements
+** Future Improvements**
 
 Add headless mode
 
 Improve error handling
 
 Export to Excel format
+
 
 Add logging
